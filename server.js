@@ -28,8 +28,8 @@ app.get('/showperformances/:neighborhood', (req, res) => {
   });
 });
 
-app.listen(3000, () => {
-  console.log('up on 3000');
+app.listen(process.env.PORT || 3000, () => {
+  console.log('up on ' + process.env.PORT || 3000);
 });
 
 module.exports = app;
