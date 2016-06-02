@@ -5,4 +5,5 @@
 /*.md
 /package.json
 /LICENSE
+/Procfile
 npm-debug.log
