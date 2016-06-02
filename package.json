@@ -1,0 +1,29 @@
+{
+  "name": "zach",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "start": "node server.js",
+    "lint": "./node_modules/eslint/bin/eslint.js *"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonszc/heroku-deploy-demo/tree/master/zach"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.19"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "eslint": "^2.11.1",
+    "mocha": "^2.5.3"
+  }
+}
